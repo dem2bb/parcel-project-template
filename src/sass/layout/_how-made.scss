@@ -1,6 +1,11 @@
 .howmade {
     background-color: #FFF5F6;
+    background-image: url(../images/howmade-background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom 780px left 0px;
 }
+
 
 .howmade-title {
     margin-top: 15px;
@@ -47,9 +52,6 @@
     line-height: 1.583;
     color: #907E82;
 }
-
-
-
 
 .howmade-button {
     margin-top: 17px;
