@@ -1,24 +1,57 @@
-@charset "UTF-8";
-/*
- * Главный файл стилей.
- * Все паршалы подключаются сюда.
- */
-.example {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  line-height: 1.5;
-  color: #212121;
-  max-width: 960px;
-  padding: 15px;
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px 1px 1px 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 0 !important;
+  width: 0 !important;
+  overflow: hidden;
 }
 
-.example code {
-  font-family: monospace;
-  font-size: 16px;
-  font-weight: 700;
-  background-color: teal;
-  color: white;
-  padding: 2px 6px;
-  border-radius: 2px;
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (min-width: 320px) {
+  .container {
+    max-width: 320px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding: 0 34px 0 34px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+  }
 }
 
 /*# sourceMappingURL=/src.e31bb0bc.css.map */
