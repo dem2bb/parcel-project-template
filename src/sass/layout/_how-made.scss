@@ -1,5 +1,10 @@
-.howmade-title {
+.howmade {
+    background-color: #FFF5F6;
+}
 
+.howmade-title {
+    margin-top: 15px;
+    margin-bottom: 26px;
     font-family: Titan One;
     font-size: 34px;
     line-height: 1.14;
@@ -7,4 +12,64 @@
     letter-spacing: 0.04em;
     text-transform: uppercase;
     color: #D41443;
+}
+
+.howmade-undertitle {
+    padding-top: 125px;
+    font-family: Titan One;
+    font-size: 18px;
+    line-height: 1.166;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFA5BA;
+}
+
+.howmade-uppertext {
+    width: 220px;
+    margin-top: 46px;
+    margin-bottom: 46px;
+    font-family: DM Sans;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.583;
+    color: #000000;
+}
+
+.howmade-discrtext {
+    width: 220px;
+    font-family: DM Sans;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.583;
+    color: #907E82;
+}
+
+.howmade-list-options {
+    font-family: Titan One;
+    font-size: 36px;
+    line-height: 1.139;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #D41443;
+}
+
+.howmade-list-about {
+    font-family: DM Sans;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 1.666;
+    color: #000000;
+}
+
+.howmade-button {
+    margin-top: 17px;
+}
+
+.howmade-list {
+    margin-top: 39px;
+    padding-bottom: 145px;
+
+    &-item {
+        margin-bottom: 38px;
+    }
 }
