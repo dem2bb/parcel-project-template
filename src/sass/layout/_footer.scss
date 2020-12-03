@@ -1,0 +1,67 @@
+.footer{
+    background-color: #FFF5F6;
+}
+
+.footer-undertitle {
+    font-family: "Titan One", cursive;
+    font-size: 18px;
+    line-height: 1.167;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #FFA5BA;
+    
+    @media screen and (min-width:768px){
+        font-size: 26px;
+        line-height: 1.154;
+    }
+    @media screen and (min-width: 1200px){
+        font-size: 30px;
+        line-height: 1.133;
+  
+    }
+
+}
+
+.footer-title {
+    font-family: "Titan One";
+    font-weight: normal;
+    font-size: 34px;
+    line-height: 1.147;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #D41443;
+
+}
+
+.socials{
+    display: flex;
+}
+
+.socials-item:not(:last-child){
+    margin-right: 29px;
+}
+
+.socials-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #fea5bb;
+
+}
+.socials-svg{
+    &.github{
+        width: 19px;
+        height: 19px;
+    }
+    &.telegram{
+        width: 19px;
+        height: 15px;
+    }
+    &.facebook{
+        width: 9px;
+        height: 19px;
+    }
+}
