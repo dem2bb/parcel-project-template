@@ -1,0 +1,240 @@
+.location {
+    background-color: #FFF5F6;
+}
+
+.location-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.location-list {
+    background-color: #FFFFFF;
+    box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
+    border-radius: 24px;
+    padding-top: 43px;
+    padding-bottom: 43px;
+    padding-left: 20px;
+    padding-right: 21px;
+    margin-bottom: 20px;
+    width: 220px;
+
+    &:nth-child(3) {
+        margin-bottom: 54px;
+    }
+
+    &-title {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 1.83;
+        letter-spacing: 0.04em;
+        color: #FFFFFF;
+        text-align: center;
+        background-color: #F0D1A5;
+        width: 80px;
+        border-radius: 4px;
+
+        @media screen and (min-width: 768px) {
+            font-size: 16px;
+            line-height: 1.875;
+            width: 73px;
+        }
+
+    }
+
+    &-greentitle {
+        width: 130px;
+        text-align: center;
+        background-color: #C2E297;
+        border-radius: 4px;
+
+        @media screen and (min-width: 768px) {
+            font-size: 16px;
+            line-height: 1.875;
+            width: 138px;
+        }
+    }
+
+}
+
+.location-city,
+.location-shadule {
+    font-size: 12px;
+    line-height: 1.833;
+    color: #000000;
+
+    @media screen and (min-width: 768px) {
+        font-size: 14px;
+        line-height: 1.857;
+    }
+
+    @media screen and (min-width: 1200px) {
+        font-size: 16px;
+        line-height: 1.875;
+        letter-spacing: 0.04em;
+    }
+}
+
+.location-city {
+    letter-spacing: 0.04em;
+}
+
+.location-description {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #907E82;
+    margin-top: 10px;
+
+    @media screen and (min-width: 768px) {
+        font-size: 14px;
+        line-height: 1.642;
+    }
+
+    @media screen and (min-width: 1200px) {
+        font-size: 16px;
+        line-height: 1.812;
+        letter-spacing: 0.04em;
+    }
+}
+
+.location-hours {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.833;
+    color: #FFA5BA;
+
+    @media screen and (min-width: 768px) {
+        font-size: 14px;
+        line-height: 1.857;
+    }
+
+    @media screen and (min-width: 1200px) {
+        font-size: 16px;
+        line-height: 1.875;
+
+    }
+}
+
+.location-contacts {
+    margin-top: 25px;
+
+    &-link {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 1.2;
+        color: #907E82;
+
+        @media screen and (min-width: 768px) {
+            font-size: 14px;
+            line-height: 1.857;
+        }
+
+        @media screen and (min-width: 1200px) {
+            font-size: 16px;
+            line-height: 1.812;
+        }
+    }
+}
+
+.location-firstblock {
+    margin-top: 25px;
+}
+
+.location-secondblock {
+    margin-top: 25px;
+}
+
+.location-firstblock::after {
+    content: '';
+    border: 1px solid #E1E1E1;
+    width: 179px;
+    margin-top: 25px;
+}
+
+.location-secondblock::after {
+    content: '';
+    border: 1px solid #E1E1E1;
+    width: 179px;
+    margin-top: 25px;
+}
+
+.location-formargin {
+    margin-top: 10px;
+}
+
+.location-email {
+    margin-top: 6px;
+}
+
+.location-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+    .location-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .location-list {
+        margin-right: 20px;
+        margin-bottom: 0;
+        padding-top: 50px;
+        padding-bottom: 50px;
+
+        &:nth-child(3) {
+            margin-right: 0;
+            margin-bottom: 0;
+        }
+    }
+
+    .location-buttons {
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 81px;
+    }
+
+    .location-btn2 {
+        margin-top: 0;
+        margin-left: 14.5px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .location-container {
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .location-list {
+        width: 330px;
+        padding-left: 43px;
+        padding-right: 43px;
+        padding-top: 51px;
+        padding-bottom: 62px;
+        margin-right: 31px;
+    }
+
+    .location-buttons {
+        margin-top: 86px;
+    }
+
+    .location {
+        position: relative;
+        background-image: url(../images/location/locationbg.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .loc-cont {
+        position: relative;
+        top: -102px;
+    }
+}

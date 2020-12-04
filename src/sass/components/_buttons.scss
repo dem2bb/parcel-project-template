@@ -146,6 +146,7 @@
 }
 
 .location-btn2 {
+
   @media screen and (min-width: 320px) {
     width: 161px;
   }
@@ -169,3 +170,31 @@
     background: #ecebeb;
   }
 }
+    @media screen and (min-width: 320px) {
+        width: 161px;
+    }
+
+    @media screen and (min-width: 768px) {
+        width: 174px;
+    }
+
+    @media screen and (min-width: 768px) {
+        width: 180px;
+    }
+
+    background: #ffffff;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.31;
+    color: #d41443;
+
+    &:hover,
+    &:focus {
+        background: #ecebeb;
+    }
+}
+
+.location-btn2 {
+    margin-top: 10px;
+}
+
