@@ -206,6 +206,7 @@
 
 @media screen and (min-width: 1200px) {
     .location-container {
+
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -218,9 +219,22 @@
         padding-right: 43px;
         padding-top: 51px;
         padding-bottom: 62px;
+        margin-right: 31px;
     }
 
     .location-buttons {
         margin-top: 86px;
+    }
+
+    .location {
+        position: relative;
+        background-image: url(../images/location/locationbg.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .loc-cont {
+        position: relative;
+        top: -102px;
     }
 }
