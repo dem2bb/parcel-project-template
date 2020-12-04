@@ -7,6 +7,14 @@
     background-image: url(../images/preview/ice.png), url(../images/preview/preview-circle.png);
     background-repeat: no-repeat;
     background-position: bottom 0px right 32px, right 0px top 83px;
+    @media screen and (min-width: 768px) {
+      padding: 0;
+      padding-left: 34px;
+      height: 400px;
+      background-image: url(../images/preview/prev-bg-ice.png), url(../images/preview/prev-bg-girl.png), url(../images/preview/prev-bg-sircle.png), url(../images/preview/prev-bg-milk.png);
+      background-repeat: no-repeat;
+      background-position: left 378px bottom 0, right 34px bottom 0,left 307px top 31px, left 34px bottom 28px;
+    }
   }
 }
 .preview-wrapper {
@@ -14,6 +22,10 @@
   flex-direction: column;
   justify-content: center;
   height: 100%;
+  @media screen and (min-width: 768px) {
+    justify-content: start;
+    padding-top: 100px;
+  }
   h1 {
     width: 220px;
     font-family: Titan One;
@@ -25,13 +37,54 @@
     text-transform: uppercase;
     color: #FFFFFF;
     margin-bottom: 20px;
+    @media screen and (min-width: 768px) {
+      width: 165px;
+      font-size: 22px;
+      line-height: 25,19px;
+    }
     span {
       color: #D41443;
       font-size: 48px;
       line-height: 0.955;
+      @media screen and (min-width: 768px) {
+        font-size: 34px;
+        line-height: 30,77px;
+      }
     }
   }
 }
 .preview-button {
   display: flex;
+  justify-content: start;
+  .preview-btn {
+    margin-right: 8px;
+    margin-left: 0;
+  }
+  .preview-btn2 {
+    margin-left: 0;
+  }
 }
+.preview-description {
+  display: none;
+  width: 114px;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 8px;
+  line-height: 150%;
+  color: #FFFFFF;
+  margin-left: 120px;
+  margin-top: 66px;
+  @media screen and (min-width: 768px) {
+    display: block;
+  }
+  svg {
+    width: 18px;
+    height: 18px;
+    fill: #D41443;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    padding: 5px;
+    margin-top: 7px;
+  }
+  }

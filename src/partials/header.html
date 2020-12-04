@@ -4,14 +4,26 @@
       <div class="header-logo">
         <img src="../src/images/header-logo.png" alt="">
       </div>
-      <nav>
-
+      <nav class="header-navigation" data-menu data-menu-closed>
+        <svg class="header-close-button" close-menu-button>
+          <use href="../src/images/sprite.svg#close">
+          </use>
+        </svg>
+        <button class="header-btn-menu button">Buy now</button>
+        <ul class="header-nav-item">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">How it’s made?</a></li>
+          <li><a href="#">Our products</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
       </nav>
-      <button>
+      <button class="header-m-btn" data-menu-button>
         <svg class="header-menu-button">
-          <use href="../src/images/sprite.svg#menu"></use>
+          <use href="./images/sprite.svg#menu"></use>
         </svg>
       </button>
+      <button class="header-btn-menu button tab-desc-btn">Buy now</button>
     </div>
   </div>
 </header>
