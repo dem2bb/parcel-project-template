@@ -1,147 +1,175 @@
 .button {
-    display: block;
-    outline: none;
-    border: none;
-    font-family: DM Sans;
-    border-radius: 22px;
-    height: 44px;
-    text-align: center;
-    cursor: pointer;
+  display: block;
+  outline: none;
+  border: none;
+  font-family: DM Sans;
+  border-radius: 22px;
+  height: 44px;
+  text-align: center;
+  cursor: pointer;
 }
 
 .header-btn {
-    background: #ffffff;
+  background: #ffffff;
 
-    @media screen and (min-width: 768px) {
-        width: 160px;
-    }
+  @media screen and (min-width: 768px) {
+    width: 160px;
+  }
 
-    @media screen and (min-width: 1050px) {
-        width: 159px;
-    }
+  @media screen and (min-width: 1050px) {
+    width: 159px;
+  }
 
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.31;
-    color: #d41443;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.31;
+  color: #d41443;
 
-    &:hover,
-    &:focus {
-        background: #ecebeb;
-    }
+  &:hover,
+  &:focus {
+    background: #ecebeb;
+  }
+
+  //&::after {
+  // background-image: url(../images/sprite.svg#btn-arrow);
+  //}
 }
 
 .header-btn-menu {
-    background: #ffffff;
+  background: #ffffff;
 
-    @media screen and (max-width: 767px) {
-        width: 209px;
-    }
+  @media screen and (max-width: 767px) {
+    width: 209px;
+  }
 
-    @media screen and (min-width: 768px) {
-        width: 186px;
-    }
+  @media screen and (min-width: 768px) {
+    width: 186px;
+  }
 
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.31;
-    color: #d41443;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.31;
+  color: #d41443;
 
-    &:hover,
-    &:focus {
-        background: #ecebeb;
-    }
+  &:hover,
+  &:focus {
+    background: #ecebeb;
+  }
 }
 
 .preview-btn {
-    @media screen and (min-width: 320px) and (max-width: 1049px) {
-        width: 62px;
-        height: 24px;
-        font-size: 8px;
-        line-height: 1.25;
-    }
+  @media screen and (min-width: 320px) and (max-width: 1049px) {
+    width: 62px;
+    height: 24px;
+    font-size: 8px;
+    line-height: 1.25;
+  }
 
-    @media screen and (min-width: 1050px) {
-        width: 104px;
-        height: 40px;
-        font-size: 14px;
-        line-height: 1.28;
-    }
+  @media screen and (min-width: 1050px) {
+    width: 104px;
+    height: 40px;
+    font-size: 14px;
+    line-height: 1.28;
+  }
 
-    background: #d41443;
-    border-radius: 20px;
-    font-weight: 400;
-    color: #ffffff;
+  background: #d41443;
+  border-radius: 20px;
+  font-weight: 400;
+  color: #ffffff;
 }
 
 .preview-btn2 {
-    @media screen and (min-width: 320px) and (max-width: 1049px) {
-        width: 82px;
-        height: 24px;
-        font-size: 8px;
-        line-height: 1.25;
-    }
+  @media screen and (min-width: 320px) and (max-width: 1049px) {
+    width: 82px;
+    height: 24px;
+    font-size: 8px;
+    line-height: 1.25;
+  }
 
-    @media screen and (min-width: 1050px) {
-        width: 138px;
-        height: 40px;
-        font-size: 14px;
-        line-height: 1.28;
-    }
+  @media screen and (min-width: 1050px) {
+    width: 138px;
+    height: 40px;
+    font-size: 14px;
+    line-height: 1.28;
+  }
 
-    background: #ffffff;
-    border-radius: 20px;
-    font-weight: 400;
-    color: #d41443;
+  background: #ffffff;
+  border-radius: 20px;
+  font-weight: 400;
+  color: #d41443;
 
-    &:hover,
-    &:focus {
-        background: #ecebeb;
-    }
+  &:hover,
+  &:focus {
+    background: #ecebeb;
+  }
 }
 
 .how-made-btn {
-    width: 176px;
+  width: 176px;
 
-    @media screen and (max-width: 767px) {
-        font-size: 14px;
-        line-height: 1.28;
-    }
+  @media screen and (max-width: 767px) {
+    font-size: 14px;
+    line-height: 1.28;
+  }
 
-    background: #ffffff;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.31;
-    color: #d41443;
+  background: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.31;
+  color: #d41443;
 
-    &:hover,
-    &:focus {
-        background: #ecebeb;
-    }
+  &:hover,
+  &:focus {
+    background: #ecebeb;
+  }
 }
 
 .location-btn {
-    @media screen and (min-width: 320px) and (max-width: 767px) {
-        width: 161px;
-    }
+  @media screen and (min-width: 320px) and (max-width: 767px) {
+    width: 161px;
+  }
 
-    @media screen and (min-width: 768px) {
-        width: 191px;
-    }
+  @media screen and (min-width: 768px) {
+    width: 191px;
+  }
 
-    @media screen and (min-width: 768px) {
-        width: 198px;
-    }
+  @media screen and (min-width: 768px) {
+    width: 198px;
+  }
 
-    background: #d41342;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.31;
+  background: #d41342;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.31;
 
-    color: #ffffff;
+  color: #ffffff;
 }
 
 .location-btn2 {
+
+  @media screen and (min-width: 320px) {
+    width: 161px;
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 174px;
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 180px;
+  }
+
+  background: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.31;
+  color: #d41443;
+
+  &:hover,
+  &:focus {
+    background: #ecebeb;
+  }
+}
     @media screen and (min-width: 320px) {
         width: 161px;
     }
@@ -169,3 +197,4 @@
 .location-btn2 {
     margin-top: 10px;
 }
+
