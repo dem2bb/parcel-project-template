@@ -131,7 +131,7 @@
     }
     &.telegram{
         width: 19px;
-        height: 15px;
+        height: 19px;
     }
     &.facebook{
         width: 9px;
@@ -144,7 +144,7 @@
 
 .phone-text{
     font-family: $secondary-font;
-    font-weight: 500;
+    font-weight: 700;
     font-size: 12px;
     line-height: 1.86;
     letter-spacing: 0.02em;
@@ -160,7 +160,7 @@
 
     &-link{
         color: $text-acent-color;
-        font-weight: 700;
+        font-weight: 500;
         display: inline-block;
 
     }
