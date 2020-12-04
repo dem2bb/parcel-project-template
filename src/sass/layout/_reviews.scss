@@ -1,1 +1,110 @@
+.slide {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
+.reviews-picture {
+  display: block;
+  width: 85px;
+}
+
+.review-text {
+  position: relative;
+  padding: 43px 66px 26px 57px;
+
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 2.55;
+
+  background-color: #fafafa;
+  max-width: 280px;
+
+  text-align: center;
+
+  color: $primary-text-color;
+}
+
+.review-text::before {
+  position: absolute;
+  content: '';
+  background-image: url(../images/reviews/quotes.png);
+  width: 54px;
+  height: 40px;
+  top: 00%;
+  left: 9%;
+}
+
+.review-person {
+  position: relative;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.857;
+
+  text-align: center;
+
+  color: $primary-text-color;
+}
+
+.review-person::before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 4px;
+  height: 4px;
+  background-color: #c7133e;
+  text-decoration: none;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@media screen and (min-width: 768px) {
+  .review-text {
+    padding: 30px 36px 28px 40px;
+
+    font-size: 14px;
+    line-height: 2.16;
+
+    max-width: 460px;
+  }
+
+  .review-person {
+    font-size: 16px;
+    line-height: 1.86;
+  }
+
+  .review-text::before {
+    top: 10%;
+    left: 0%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .review-text {
+    padding: 15px 176px 34px 178px;
+
+    font-size: 14px;
+    line-height: 2.16;
+
+    max-width: 926px;
+  }
+
+  .review-person {
+    font-size: 20px;
+    line-height: 1.86;
+  }
+
+  .review-text::before {
+    top: -2%;
+    left: 17%;
+  }
+}
