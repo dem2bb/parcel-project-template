@@ -1,5 +1,11 @@
 .location {
+    position: relative;
     background-color: #FFF5F6;
+}
+
+.loc-cont {
+    position: relative;
+    top: -84px;
 }
 
 .location-container {
@@ -174,6 +180,15 @@
 }
 
 @media screen and (min-width: 768px) {
+    .location {
+        position: relative;
+    }
+
+    .loc-cont {
+        position: relative;
+        top: -78px;
+    }
+
     .location-container {
         display: flex;
         flex-direction: row;
