@@ -241,14 +241,39 @@
   text-transform: uppercase;
 
   color: #ffffff;
-  margin-bottom: 66px;
+  margin-bottom: 30px;
 
   @media screen and (min-width: 1200px) {
     font-size: 30px;
     line-height: 1.13;
-    margin-bottom: 70px;
+  }
+
+  &::after {
+    content: '';
+    width: 30px;
+    height: 20px;
+    display: block;
+    margin: 30px auto;
+
+    @media screen and (min-width: 1200px) {
+      margin: 32px auto;
+    }
+
+    background-image: url(../images/products/points.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
   }
 }
+
+//.products-points {
+//  margin: 0 auto;
+//  margin-bottom: 30px;
+//
+//  @media screen and (min-width: 1200px) {
+//    margin-bottom: 32px;
+//  }
+//}
 
 .products-description {
   font-family: DM Sans;
