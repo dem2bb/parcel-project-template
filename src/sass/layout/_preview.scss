@@ -1,41 +1,118 @@
+.preview-shop {
+  display: none;
+  @media screen and (min-width: 768px) {
+    display: block;
+    margin-left: 475px;
+  }
+  @media screen and (min-width: 1200px) {
+    margin-left: 700px;
+  }
+  .preview-shop-item {
+    width: 60px;
+    background-image: url(../images/preview/shop-item-bg.png);
+    background-repeat: no-repeat;
+    background-position: right 0 top 0;
+    margin-bottom: 13px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+    @media screen and (min-width: 768px) {
+      background-image: url(../images/preview/shop-item-bg-desc.png);
+      width: 90px;
+    }
+  }
+  .preview-shop-item p:first-child {
+    padding-left: 15px;
+    font-family: Titan One;
+    font-size: 28px;
+    line-height: 32px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #D41443;
+    @media screen and (min-width: 1200px) {
+      font-size: 46px;
+      line-height: 53px;
+    }
+  }
+  .preview-shop-item p:nth-child(2) {
+    padding-right: 12px;
+    text-align: right;
+    font-family: DM Sans;
+    font-size: 8px;
+    line-height: 10px;
+    color: #FFFFFF;
+    @media screen and (min-width: 1200px) {
+      font-size: 14px;
+      line-height: 18px;
+    }
+  }
+}
+.preview-description {
+  display: none;
+  width: 114px;
+  font-family: DM Sans;
+  font-size: 8px;
+  line-height: 150%;
+  color: #FFFFFF;
+  @media screen and (min-width: 768px) {
+    display: block;
+    margin-top: 66px;
+    margin-left: 120px;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 200px;
+    margin-left: 300px;
+    font-size: 14px;
+    line-height: 140%;
+    margin-left: 180px;
+    margin-top: 112px;
+  }
+  svg {
+    width: 18px;
+    height: 18px;
+    fill: #D41443;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    padding: 5px;
+    margin-top: 7px;
+  }
+}
 .preview {
+  background-color: #FFB8CA;
   .container {
-    padding: 0 20px;
     height: 502px;
-    width: 100%;
+    width: 320px;
+    display: flex;
+    align-items: center;
     background-color: #FFB8CA;
     background-image: url(../images/preview/ice.png), url(../images/preview/preview-circle.png);
     background-repeat: no-repeat;
     background-position: bottom 0px right 32px, right 0px top 83px;
     @media screen and (min-width: 768px) {
-      padding: 0 34px;
+      align-items: start;
+      width: 768px;
       height: 400px;
+      padding-top: 102px;
       background-image: url(../images/preview/prev-bg-ice.png), url(../images/preview/prev-bg-girl.png), url(../images/preview/prev-bg-sircle.png), url(../images/preview/prev-bg-milk.png);
       background-repeat: no-repeat;
       background-position: left 378px bottom 0, right 34px bottom 0,left 307px top 31px, left 34px bottom 28px;
     }
     @media screen and (min-width: 1200px) {
-      max-width: 1280px;
-      min-height: 665px;
+      width: 1280px;
+      min-width: 1280px;
+      height: 665px;
       padding: 0;
+      padding-top: 171px;
+      padding-left: 115px;
       background-image: url(../images/preview/prev-bg-ice-desc.png), url(../images/preview/prev-bg-girl-desc.png), url(../images/preview/prev-bg-sircle-desc.png), url(../images/preview/prev-bg-milk-desc.png);
       background-position: left 594px bottom 0, right 109px bottom 0,left 475px top 52px, left 77px bottom 45px;
     }
   }
 }
-.preview-wrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 100%;
+.preview-title-wrapper {
   @media screen and (min-width: 768px) {
-    flex-direction: row;
-    flex-wrap: wrap;
-    padding-top: 100px;
-    justify-content: start;
-  }
-  @media screen and (min-width: 1200px) {
-    padding-top: 170px;
+    // width: 700px;
+    display: flex;
   }
   h1 {
     width: 220px;
@@ -52,14 +129,11 @@
       width: 162px;
       font-size: 22px;
       line-height: 25px;
-      margin: 0;
     }
     @media screen and (min-width: 1200px) {
       width: 280px;
       font-size: 38px;
       line-height: 44px;
-      margin: 0;
-      margin-left: 115px;
     }
     span {
       color: #D41443;
@@ -67,115 +141,18 @@
       line-height: 0.955;
       @media screen and (min-width: 768px) {
         font-size: 34px;
-        line-height: 30,77px;
+        line-height: 31px;
       }
       @media screen and (min-width: 1200px) {
         font-size: 58px;
-        line-height: 52,49px;
+        line-height: 53px;
       }
     }
   }
 }
-.preview-title-wrapper {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  @media screen and (min-width: 768px) {
-    height: auto;
-  }
-  @media screen and (min-width: 1200px) {
-    height: 60px;
-    margin-bottom: 25px;
-  }
-}
-.preview-shop {
-  display: none;
-  text-align: right;
-  width: 60px;
-  height: 100%;
-  @media screen and (min-width: 768px) {
-    height: 80px;
-  }
-  @media screen and (min-width: 1200px) {
-    margin-right: 115px;
-  }
-  .preview-shop-item {
-    background-image: url(../images/preview/shop-item-bg.png);
-    background-repeat: no-repeat;
-    background-position: right 0 top 0;
-    margin-bottom: 13px;
-  }
-  .preview-shop-item p:first-child {
-    font-family: Titan One;
-    font-size: 28px;
-    line-height: 32px;
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
-    color: #D41443;
-    @media screen and (min-width: 1200px) {
-      font-size: 46px;
-      line-height: 53px;
-    }
-  }
-  .preview-shop-item p:nth-child(2) {
-    font-family: DM Sans;
-    font-size: 8px;
-    line-height: 10px;
-    color: #FFFFFF;
-    @media screen and (min-width: 1200px) {
-      font-size: 14px;
-      line-height: 18px;
-    }
-  }
-  @media screen and (min-width: 768px) {
-    display: block;
-  }
-  .item-container {
-    display: flex;
-    flex-direction: column;
-    width: 50px;
-  }
-}
 .preview-button {
-  width: 100%;
   display: flex;
-  justify-content: start;
-  @media screen and (min-width: 1200px) {
-    margin-left: 115px;
-  }
-  .preview-btn {
+  button:first-child {
     margin-right: 8px;
-    margin-left: 0;
-  }
-  .preview-btn2 {
-    margin-left: 0;
   }
 }
-.preview-description {
-  display: none;
-  width: 114px;
-  font-family: DM Sans;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 8px;
-  line-height: 150%;
-  color: #FFFFFF;
-  margin-left: 120px;
-  margin-top: 66px;
-  @media screen and (min-width: 768px) {
-    display: block;
-  }
-  @media screen and (min-width: 1200px) {
-    margin-left: 300px;
-
-  }
-  svg {
-    width: 18px;
-    height: 18px;
-    fill: #D41443;
-    background-color: #FFFFFF;
-    border-radius: 50%;
-    padding: 5px;
-    margin-top: 7px;
-  }
-  }
