@@ -1,7 +1,16 @@
 .reviews-container {
   margin-top: 121px;
-  margin-bottom: 120px;
+  margin-bottom: 170px;
+
+  @media screen and (min-width: 768px) {
+    margin-bottom: 197px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 234px;
+  }
 }
+
 .slide {
   display: flex;
   flex-direction: column;
@@ -54,13 +63,11 @@
   background-color: #fafafa;
   // max-width: 280px;
 
-  background: repeating-linear-gradient(
-    to bottom,
-    transparent,
-    transparent 26px,
-    #e1e1e1 1px,
-    #e1e1e1 27px
-  );
+  background: repeating-linear-gradient(to bottom,
+      transparent,
+      transparent 26px,
+      #e1e1e1 1px,
+      #e1e1e1 27px);
   z-index: 999;
   width: 180px;
 }
