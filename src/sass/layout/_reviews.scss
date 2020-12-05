@@ -22,6 +22,7 @@
   width: 100%;
   padding: 43px 66px 26px 57px;
   background-color: #fafafa;
+  margin-bottom: 30px;
 }
 
 .review-text-block::after {
@@ -43,25 +44,15 @@
   font-size: 12px;
   line-height: 2.55;
   text-align: center;
+  letter-spacing: 0.04em;
 
   color: $primary-text-color;
-
-  // background-image: repeating-linear-gradient(
-  //   to bottom,
-  //   #fafafa,
-  //   #fafafa 30px,
-  //   #e1e1e1 30px,
-  //   #e1e1e1 31px
-  // );
 }
 
 .review-text-wrapper {
   position: relative;
-  // padding: 43px 66px 26px 57px;
   background-color: #fafafa;
   // max-width: 280px;
-
-  margin-bottom: 30px;
 
   background: repeating-linear-gradient(
     to bottom,
@@ -71,7 +62,7 @@
     #e1e1e1 27px
   );
   z-index: 999;
-  // width: 180px;
+  width: 180px;
 }
 
 .review-person {
@@ -110,23 +101,24 @@
     margin-bottom: 19px;
   }
 
-  .review-text-wrapper {
-    // padding: 30px 36px 28px 40px;
-    max-width: 460px;
-
+  .review-text-block {
+    width: 100%;
+    padding: 30px 36px 28px 40px;
     margin-bottom: 24px;
+  }
+
+  .review-text-wrapper {
+    width: 560px;
+  }
+
+  .review-text-block::after {
+    top: 14px;
+    left: 46px;
   }
 
   .review-text {
     font-size: 14px;
     line-height: 2.16;
-
-    background-image: repeating-linear-gradient(
-      to bottom,
-      #fafafa,
-      #fafafa 30%,
-      #e1e1e1 32%
-    );
   }
 
   .review-person {
@@ -140,23 +132,25 @@
     margin-bottom: 29px;
   }
 
-  .review-text-wrapper {
-    // padding: 32px 54px 32px 50px;
-    max-width: 926px;
-
+  .review-text-block {
+    width: 100%;
+    padding: 32px 54px 32px 50px;
     margin-bottom: 15px;
   }
 
-  .review-text {
-    font-size: 14px;
-    line-height: 2.16;
+  .review-text-wrapper {
+    max-width: 926px;
+    width: 750px;
+  }
 
-    background-image: repeating-linear-gradient(
-      to bottom,
-      #fafafa,
-      #fafafa 46%,
-      #e1e1e1 50%
-    );
+  .review-text-block::after {
+    top: 15px;
+    left: 165px;
+  }
+
+  .review-text {
+    font-size: 16px;
+    line-height: 1.875;
   }
 
   .review-person {
