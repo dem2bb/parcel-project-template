@@ -49,6 +49,7 @@
 .review-text {
   font-family: DM Sans;
   font-style: normal;
+  width: 180px;
   font-weight: 500;
   font-size: 12px;
   line-height: 2.55;
@@ -60,16 +61,15 @@
 
 .review-text-wrapper {
   position: relative;
-  background-color: #fafafa;
-  // max-width: 280px;
 
-  background: repeating-linear-gradient(to bottom,
-      transparent,
-      transparent 26px,
-      #e1e1e1 1px,
-      #e1e1e1 27px);
+  background: repeating-linear-gradient(
+    to bottom,
+    transparent,
+    transparent 26px,
+    #e1e1e1 1px,
+    #e1e1e1 27px
+  );
   z-index: 999;
-  width: 180px;
 }
 
 .review-person {
@@ -103,6 +103,19 @@
   height: 11.84px;
 }
 
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .review-text-wrapper {
+    background: repeating-linear-gradient(
+      to bottom,
+      transparent,
+      transparent 29px,
+      #e1e1e1 1px,
+      #e1e1e1 30px
+    );
+    z-index: 999;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .reviews-picture {
     margin-bottom: 19px;
@@ -114,7 +127,7 @@
     margin-bottom: 24px;
   }
 
-  .review-text-wrapper {
+  .review-text {
     width: 560px;
   }
 
@@ -145,7 +158,7 @@
     margin-bottom: 15px;
   }
 
-  .review-text-wrapper {
+  .review-text {
     max-width: 926px;
     width: 750px;
   }
