@@ -1,4 +1,7 @@
 .howmade {
+    position: relative;
+    padding-bottom: 145px ;
+    
     @media screen and (min-width: 320px) and (max-width: 767px) {
         background-color: $secondary-bg-color;
         background-image: url(../images/howmade-background.png);
@@ -7,12 +10,17 @@
         background-position: bottom 780px left 0px;
     }
 
+    @media screen and (min-width: 768px){
+        padding-bottom: 246px;
+    }
+
     @media screen and (min-width: 1200px) {
         background-color: $secondary-bg-color;
         background-image: url(../images/howmade-background-pc.png);
         background-repeat: no-repeat;
         background-size: contain;
         background-position: top 342px left 0px;
+        padding-bottom: 310px;
     }
 
 }
@@ -80,7 +88,7 @@
 
 .howmade-list {
     margin-top: 39px;
-    padding-bottom: 145px;
+    
 
     &-options {
         margin-top: 16px;
@@ -219,4 +227,29 @@
     }
 
 
+}
+
+// =========================стили для галлереи==================
+
+.gallery-container{
+    position: absolute;
+    bottom: 0px;
+    transform: translatey(73px);
+    // left: 50%;
+    // transform: translateX(-50%);
+    
+    
+    
+
+    @media screen and (min-width: 768px){
+        transform: translateY(159px);
+    }
+
+    @media screen and (min-width: 1200px){
+        transform: translateY(259px);
+    }
+}
+
+.gallery-pic{
+    min-width: 100%;
 }
