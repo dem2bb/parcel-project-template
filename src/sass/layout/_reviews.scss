@@ -1,6 +1,7 @@
-.reviews-container {
-  margin-top: 121px;
-  margin-bottom: 170px;
+.slider-area {
+  @media screen and (min-width: 320px) {
+    margin-bottom: 170px;
+  }
 
   @media screen and (min-width: 768px) {
     margin-bottom: 197px;
@@ -11,14 +12,13 @@
   }
 }
 
-.slide {
+.container .slide {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
-
-
 
 .reviews-picture {
   display: block;
