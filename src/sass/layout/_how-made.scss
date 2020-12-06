@@ -1,6 +1,5 @@
 .howmade {
     position: relative;
-    padding-bottom: 145px ;
     
     @media screen and (min-width: 320px) and (max-width: 767px) {
         background-color: $secondary-bg-color;
@@ -11,7 +10,7 @@
     }
 
     @media screen and (min-width: 768px){
-        padding-bottom: 246px;
+        // padding-bottom: 246px;
     }
 
     @media screen and (min-width: 1200px) {
@@ -20,7 +19,7 @@
         background-repeat: no-repeat;
         background-size: contain;
         background-position: top 342px left 0px;
-        padding-bottom: 310px;
+        // padding-bottom: 310px;
     }
 
 }
@@ -230,26 +229,70 @@
 }
 
 // =========================стили для галлереи==================
+.howmade {
+    padding-bottom: 145px;
+
+    @media screen and (min-width: 768px){
+        padding-bottom: 246px;
+ 
+    }
+    @media screen and (min-width: 1200px){
+        padding-bottom: 310px;
+ 
+    }
+
+}
 
 .gallery-container{
     position: absolute;
-    bottom: 0px;
-    transform: translatey(73px);
-    // left: 50%;
-    // transform: translateX(-50%);
-    
-    
-    
+    bottom: -73px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0 auto;
+    width: 320px;
+    height: 122px;
+    background-image: url(../images/gallery/gallery-mobile.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
 
-    @media screen and (min-width: 768px){
-        transform: translateY(159px);
+    @media screen and (min-width: 320px) {
+        background-image: url(../images/gallery/gallery-mobile.png);
+        
+        @media screen and (min-device-pixel-ratio: 2) and (min-width: 320px),
+                screen and (min-resolution: 192dpi) and (min-width: 320px),
+                screen and (min-resolution: 2dppx) and (min-width: 320px){
+            background-image: url(../images/gallery/gallery-mobile@2x.png);
+        }
     }
 
-    @media screen and (min-width: 1200px){
-        transform: translateY(259px);
+    @media screen and (min-width: 768px) {
+        bottom: -159px;
+        width: 768px;
+        height: 264px;
+        background-image: url(../images/gallery/gallery-tablet.png);
+        
+        @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
+            screen and (min-resolution: 192dpi) and (min-width: 768px),
+            screen and (min-resolution: 2dppx) and (min-width: 768px){
+                background-image: url(../images/gallery/gallery-tablet@2x.png);
+        }
     }
-}
 
-.gallery-pic{
-    min-width: 100%;
+    
+    @media screen and (min-width: 1200px) {
+        bottom: -259px;
+        width: 1200px;
+        height: 430px;
+        background-image: url(../images/gallery/gallery-tablet.png);
+        
+        
+        @media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px),
+                screen and (min-resolution: 192dpi) and (min-width: 1200px),
+                screen and (min-resolution: 2dppx) and (min-width: 1200px){
+            background-image: url(../images/gallery/gallery-tablet@2x.png);
+        }
+    }
+
 }
