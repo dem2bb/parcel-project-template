@@ -8,6 +8,24 @@
     top: -84px;
 }
 
+.how-made-btn,
+.location-btn2,
+.location-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.btn-arrow {
+    margin-left: 10px;
+}
+
+.location-icon {
+    margin-left: 10px;
+    fill: white;
+}
+
 .location-container {
     display: flex;
     flex-direction: column;
