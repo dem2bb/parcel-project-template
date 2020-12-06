@@ -18,6 +18,9 @@ header {
   transition: all 250ms linear;
   button {
     margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     @media screen and (min-width: 1200px) {
       display: none;
     }
@@ -161,5 +164,9 @@ button {
   @media screen and (min-width: 768px) {
     display: block;
     width: 160px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
   }
 }
