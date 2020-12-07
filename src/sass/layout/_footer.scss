@@ -125,6 +125,7 @@
     height: 32px;
     border-radius: 50%;
     background-color: $social-links-color;
+    transition: 250ms linear;   
 
     &:hover,
     &:focus {
