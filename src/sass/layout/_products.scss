@@ -313,10 +313,23 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: background-color 250ms linear, transform 250ms linear;
+}
+
+.btn-new-page:hover,
+.btn-new-page:focus {
+  background-color: $text-acent-color;
+  transform: scale(1.3) rotate(360deg);
 }
 
 .products-link-icon {
   width: 15px;
   height: 15px;
   fill: $text-acent-color;
+  transition: fill 250ms linear;
+}
+
+.btn-new-page:hover .products-link-icon,
+.btn-new-page:focus .products-link-icon {
+  fill: #ffffff;
 }
