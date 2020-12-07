@@ -1,6 +1,7 @@
 .howmade {
     position: relative;
-    
+    padding-top: 125px;
+
     @media screen and (min-width: 320px) and (max-width: 767px) {
         background-color: $secondary-bg-color;
         background-image: url(../images/howmade-background.png);
@@ -9,7 +10,7 @@
         background-position: bottom 780px left 0px;
     }
 
-    @media screen and (min-width: 768px){
+    @media screen and (min-width: 768px) {
         // padding-bottom: 246px;
     }
 
@@ -37,8 +38,8 @@
     color: $text-acent-color;
 }
 
+
 .howmade-undertitle {
-    padding-top: 125px;
     font-family: Titan One;
     font-size: 18px;
     line-height: 1.166;
@@ -87,7 +88,7 @@
 
 .howmade-list {
     margin-top: 39px;
-    
+
 
     &-options {
         margin-top: 16px;
@@ -232,18 +233,19 @@
 .howmade {
     padding-bottom: 145px;
 
-    @media screen and (min-width: 768px){
+    @media screen and (min-width: 768px) {
         padding-bottom: 246px;
- 
+
     }
-    @media screen and (min-width: 1200px){
+
+    @media screen and (min-width: 1200px) {
         padding-bottom: 310px;
- 
+
     }
 
 }
 
-.gallery-container{
+.gallery-container {
     position: absolute;
     // bottom: 0px;
     bottom: -73px;
@@ -257,14 +259,14 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  
+
 
     @media screen and (min-width: 320px) {
         background-image: url(../images/gallery/gallery-mobile.png);
-        
+
         @media screen and (min-device-pixel-ratio: 2) and (min-width: 320px),
-                screen and (min-resolution: 192dpi) and (min-width: 320px),
-                screen and (min-resolution: 2dppx) and (min-width: 320px){
+        screen and (min-resolution: 192dpi) and (min-width: 320px),
+        screen and (min-resolution: 2dppx) and (min-width: 320px) {
             background-image: url(../images/gallery/gallery-mobile@2x.png);
         }
     }
@@ -274,25 +276,25 @@
         width: 768px;
         height: 264px;
         background-image: url(../images/gallery/gallery-tablet.png);
-        
+
         @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
-            screen and (min-resolution: 192dpi) and (min-width: 768px),
-            screen and (min-resolution: 2dppx) and (min-width: 768px){
-                background-image: url(../images/gallery/gallery-tablet@2x.png);
+        screen and (min-resolution: 192dpi) and (min-width: 768px),
+        screen and (min-resolution: 2dppx) and (min-width: 768px) {
+            background-image: url(../images/gallery/gallery-tablet@2x.png);
         }
     }
 
-    
+
     @media screen and (min-width: 1200px) {
         bottom: -259px;
         width: 1200px;
         height: 430px;
         background-image: url(../images/gallery/gallery-tablet.png);
-        
-        
+
+
         @media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px),
-                screen and (min-resolution: 192dpi) and (min-width: 1200px),
-                screen and (min-resolution: 2dppx) and (min-width: 1200px){
+        screen and (min-resolution: 192dpi) and (min-width: 1200px),
+        screen and (min-resolution: 2dppx) and (min-width: 1200px) {
             background-image: url(../images/gallery/gallery-tablet@2x.png);
         }
     }

@@ -30,6 +30,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 54px;
 }
 
 .location-list {
@@ -44,7 +45,7 @@
     width: 220px;
 
     &:nth-child(3) {
-        margin-bottom: 54px;
+        margin-bottom: 0;
     }
 
     &-title {
