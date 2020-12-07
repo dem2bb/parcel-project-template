@@ -1,39 +1,43 @@
-.footer{
+.footer {
     background-color: #FFF5F6;
 }
-.footer .container{
+
+.footer .container {
     padding-bottom: 43px;
-    padding-top: 113px;
+    padding-top: 29px;
 
     display: flex;
     flex-direction: column;
 
-    @media screen and (min-width: 768px){
+    @media screen and (min-width: 768px) {
         flex-direction: row;
         justify-content: space-between;
         padding-bottom: 91px;
-        padding-top: 165px;
+        padding-top: 87px;
     }
-    @media screen and (min-width: 1200px){
+
+    @media screen and (min-width: 1200px) {
         padding-bottom: 97px;
+        padding-top: 63px;
     }
 }
 
 // ==========footer-title====================
 
-.footer-title-thumb{
-    
-    align-self: flex-start;
-    max-width:234px;
+.footer-title-thumb {
 
-    @media screen and (max-width: 767px){
+    align-self: flex-start;
+    max-width: 234px;
+
+    @media screen and (max-width: 767px) {
         margin-bottom: 43px;
     }
-    
-    @media screen and (min-width: 768px){
+
+    @media screen and (min-width: 768px) {
         max-width: 345px;
     }
-    @media screen and (min-width: 1200px){
+
+    @media screen and (min-width: 1200px) {
         max-width: 480px;
     }
 }
@@ -47,17 +51,18 @@
     color: $pink-text-color;
 
     margin-bottom: 17px;
-    
-    @media screen and (min-width:768px){
+
+    @media screen and (min-width:768px) {
         font-size: 26px;
         line-height: 1.154;
         margin-bottom: 16px;
     }
-    @media screen and (min-width: 1200px){
+
+    @media screen and (min-width: 1200px) {
         font-size: 30px;
         line-height: 1.133;
         margin-bottom: 15px;
-  
+
     }
 
 }
@@ -71,46 +76,48 @@
     text-transform: uppercase;
     color: $text-acent-color;
 
-    @media screen and (min-width: 768px){
+    @media screen and (min-width: 768px) {
         font-family: $main-font;
         font-size: 48px;
         line-height: 1.146;
         letter-spacing: 0.06em;
     }
-    @media screen and (min-width: 1200px){
+
+    @media screen and (min-width: 1200px) {
         font-size: 58px;
         line-height: 1.138;
     }
 
 }
+
 // ===============соц сети====================
 
-.socials-thumb{
-   @media screen and (max-width: 767px){
-    align-self: flex-end;
-   }
+.socials-thumb {
+    @media screen and (max-width: 767px) {
+        align-self: flex-end;
+    }
 }
 
-.socials{
+.socials {
     display: flex;
     margin-bottom: 46px;
     justify-content: flex-end;
 
-    @media screen and (min-width: 1200px){
+    @media screen and (min-width: 1200px) {
         margin-bottom: 50px;
     }
 }
 
-.socials-item:not(:last-child){
+.socials-item:not(:last-child) {
     margin-right: 28px;
 
-    @media screen and (min-width: 768px){
+    @media screen and (min-width: 768px) {
         margin-right: 30px
     }
-        
+
 }
 
-.socials-link{
+.socials-link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -120,20 +127,23 @@
     background-color: $social-links-color;
 
     &:hover,
-    &:focus{
+    &:focus {
         background-color: $text-acent-color;
     }
 }
-.socials-svg{
-    &.github{
+
+.socials-svg {
+    &.github {
         width: 19px;
         height: 19px;
     }
-    &.telegram{
+
+    &.telegram {
         width: 19px;
         height: 19px;
     }
-    &.facebook{
+
+    &.facebook {
         width: 9px;
         height: 19px;
     }
@@ -142,7 +152,7 @@
 
 // ===============телефон===============
 
-.phone-text{
+.phone-text {
     font-family: $secondary-font;
     font-weight: 700;
     font-size: 12px;
@@ -150,15 +160,16 @@
     letter-spacing: 0.02em;
     color: $primary-text-color;
 
-    @media screen and (min-width: 768px){
+    @media screen and (min-width: 768px) {
         font-size: 14px;
     }
-    @media screen and (min-width: 1200px){
+
+    @media screen and (min-width: 1200px) {
         font-size: 16px;
     }
-  
 
-    &-link{
+
+    &-link {
         color: $text-acent-color;
         font-weight: 500;
         display: inline-block;
@@ -169,19 +180,19 @@
 
 // =================копирайт====================
 
-.copyright-thumb{
+.copyright-thumb {
     width: 100%;
     padding-top: 22px;
     padding-bottom: 25px;
     border-top: 1px solid #E1E1E1;
 
-    @media screen and (min-width: 768px){
+    @media screen and (min-width: 768px) {
         padding-top: 29px;
         padding-bottom: 18px;
     }
 }
 
-.copyright{
+.copyright {
     text-align: center;
 
     font-family: $secondary-font;
@@ -191,7 +202,7 @@
     letter-spacing: 0.02em;
     color: $secondary-text-color;
 
-    @media screen and (min-width: 320px) and (max-width: 767px){
+    @media screen and (min-width: 320px) and (max-width: 767px) {
         max-width: 150px;
         margin: 0 auto;
         line-height: 1.52;
