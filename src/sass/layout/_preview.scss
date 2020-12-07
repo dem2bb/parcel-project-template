@@ -1,26 +1,32 @@
 .preview-shop {
   display: none;
+
   @media screen and (min-width: 768px) {
     display: block;
     margin-left: 475px;
   }
+
   @media screen and (min-width: 1200px) {
     margin-left: 700px;
   }
+
   .preview-shop-item {
     width: 60px;
     background-image: url(../images/preview/shop-item-bg.png);
     background-repeat: no-repeat;
     background-position: right 0 top 0;
     margin-bottom: 13px;
+
     &:last-child {
       margin-bottom: 0;
     }
+
     @media screen and (min-width: 768px) {
       background-image: url(../images/preview/shop-item-bg-desc.png);
       width: 90px;
     }
   }
+
   .preview-shop-item p:first-child {
     padding-left: 15px;
     font-family: Titan One;
@@ -29,11 +35,13 @@
     letter-spacing: 0.04em;
     text-transform: uppercase;
     color: #D41443;
+
     @media screen and (min-width: 1200px) {
       font-size: 46px;
       line-height: 53px;
     }
   }
+
   .preview-shop-item p:nth-child(2) {
     padding-right: 12px;
     text-align: right;
@@ -41,12 +49,14 @@
     font-size: 8px;
     line-height: 10px;
     color: #FFFFFF;
+
     @media screen and (min-width: 1200px) {
       font-size: 14px;
       line-height: 18px;
     }
   }
 }
+
 .preview-description {
   display: none;
   width: 114px;
@@ -54,11 +64,13 @@
   font-size: 8px;
   line-height: 150%;
   color: #FFFFFF;
+
   @media screen and (min-width: 768px) {
     display: block;
     margin-top: 66px;
     margin-left: 120px;
   }
+
   @media screen and (min-width: 1200px) {
     width: 200px;
     margin-left: 300px;
@@ -67,6 +79,7 @@
     margin-left: 180px;
     margin-top: 112px;
   }
+
   // svg {
   //   width: 18px;
   //   height: 18px;
@@ -81,23 +94,28 @@
     margin-top: 20px;
     width: 26px;
     height: 26px;
+
     @media screen and (min-width: 768px) {
       width: 18px;
       height: 18px;
       margin-top: 7px;
     }
+
     @media screen and (min-width: 1200px) {
       margin-top: 20px;
       width: 26px;
       height: 26px;
     }
+
     .products-link-icon {
       width: 8px;
     }
   }
 }
+
 .preview {
   background-color: #FFB8CA;
+
   .container {
     height: 502px;
     width: 320px;
@@ -107,6 +125,7 @@
     background-image: url(../images/preview/ice.png), url(../images/preview/preview-circle.png);
     background-repeat: no-repeat;
     background-position: bottom 0px right 32px, right 0px top 83px;
+
     @media screen and (min-width: 768px) {
       align-items: start;
       width: 768px;
@@ -114,8 +133,9 @@
       padding-top: 102px;
       background-image: url(../images/preview/prev-bg-ice.png), url(../images/preview/prev-bg-girl.png), url(../images/preview/prev-bg-sircle.png), url(../images/preview/prev-bg-milk.png);
       background-repeat: no-repeat;
-      background-position: left 378px bottom 0, right 34px bottom 0,left 307px top 31px, left 34px bottom 28px;
+      background-position: left 378px bottom 0, right 34px bottom 0, left 307px top 31px, left 34px bottom 28px;
     }
+
     @media screen and (min-width: 1200px) {
       width: 1280px;
       min-width: 1280px;
@@ -124,15 +144,17 @@
       padding-top: 171px;
       padding-left: 115px;
       background-image: url(../images/preview/prev-bg-ice-desc.png), url(../images/preview/prev-bg-girl-desc.png), url(../images/preview/prev-bg-sircle-desc.png), url(../images/preview/prev-bg-milk-desc.png);
-      background-position: left 594px bottom 0, right 109px bottom 0,left 475px top 52px, left 77px bottom 45px;
+      background-position: left 594px bottom 0, right 109px bottom 0, left 475px top 52px, left 77px bottom 45px;
     }
   }
 }
+
 .preview-title-wrapper {
   @media screen and (min-width: 768px) {
     // width: 700px;
     display: flex;
   }
+
   h1 {
     width: 220px;
     font-family: Titan One;
@@ -144,24 +166,29 @@
     text-transform: uppercase;
     color: #FFFFFF;
     margin-bottom: 20px;
+
     @media screen and (min-width: 768px) {
       width: 162px;
       font-size: 22px;
       line-height: 25px;
     }
+
     @media screen and (min-width: 1200px) {
       width: 280px;
       font-size: 38px;
       line-height: 44px;
     }
+
     span {
       color: #D41443;
       font-size: 48px;
       line-height: 0.955;
+
       @media screen and (min-width: 768px) {
         font-size: 34px;
         line-height: 31px;
       }
+
       @media screen and (min-width: 1200px) {
         font-size: 58px;
         line-height: 53px;
@@ -169,9 +196,16 @@
     }
   }
 }
+
 .preview-button {
   display: flex;
+
   button:first-child {
     margin-right: 8px;
+    cursor: pointer;
   }
+}
+
+.preview-btn2 {
+  cursor: pointer;
 }
