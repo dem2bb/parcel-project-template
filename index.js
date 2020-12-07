@@ -184,30 +184,7 @@ function reloadCSS() {
 }
 
 module.exports = reloadCSS;
-},{"./bundle-url":"../node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"sass/slick-theme.scss":[function(require,module,exports) {
-var reloadCSS = require('_css_loader');
-
-module.hot.dispose(reloadCSS);
-module.hot.accept(reloadCSS);
-},{"./ajax-loader.gif":[["ajax-loader.0841b913.gif","sass/ajax-loader.gif"],"sass/ajax-loader.gif"],"./fonts\\slick.eot":[["slick.da8efe09.eot","sass/fonts/slick.eot"],"sass/fonts/slick.eot"],"./fonts\\slick.woff":[["slick.60f7b7e2.woff","sass/fonts/slick.woff"],"sass/fonts/slick.woff"],"./fonts\\slick.ttf":[["slick.c5074a08.ttf","sass/fonts/slick.ttf"],"sass/fonts/slick.ttf"],"./fonts\\slick.svg":[["slick.9a3ed3e9.svg","sass/fonts/slick.svg"],"sass/fonts/slick.svg"],"./..\\images\\reviews\\home.svg":[["home.e6ec330e.svg","images/reviews/home.svg"],"images/reviews/home.svg"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"sass/slick.scss":[function(require,module,exports) {
-var reloadCSS = require('_css_loader');
-
-module.hot.dispose(reloadCSS);
-module.hot.accept(reloadCSS);
-},{"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"sass/main.scss":[function(require,module,exports) {
-var reloadCSS = require('_css_loader');
-
-module.hot.dispose(reloadCSS);
-module.hot.accept(reloadCSS);
-},{"./..\\images\\preview\\shop-item-bg.png":[["shop-item-bg.44e032ef.png","images/preview/shop-item-bg.png"],"images/preview/shop-item-bg.png"],"./..\\images\\preview\\shop-item-bg-desc.png":[["shop-item-bg-desc.68784501.png","images/preview/shop-item-bg-desc.png"],"images/preview/shop-item-bg-desc.png"],"./..\\images\\preview\\ice.png":[["ice.94f848a1.png","images/preview/ice.png"],"images/preview/ice.png"],"./..\\images\\preview\\preview-circle.png":[["preview-circle.83d1b249.png","images/preview/preview-circle.png"],"images/preview/preview-circle.png"],"./..\\images\\preview\\prev-bg-ice.png":[["prev-bg-ice.15f2f291.png","images/preview/prev-bg-ice.png"],"images/preview/prev-bg-ice.png"],"./..\\images\\preview\\prev-bg-girl.png":[["prev-bg-girl.8cb5d960.png","images/preview/prev-bg-girl.png"],"images/preview/prev-bg-girl.png"],"./..\\images\\preview\\prev-bg-sircle.png":[["prev-bg-sircle.61265a45.png","images/preview/prev-bg-sircle.png"],"images/preview/prev-bg-sircle.png"],"./..\\images\\preview\\prev-bg-milk.png":[["prev-bg-milk.02ee5a22.png","images/preview/prev-bg-milk.png"],"images/preview/prev-bg-milk.png"],"./..\\images\\preview\\prev-bg-ice-desc.png":[["prev-bg-ice-desc.47539bc7.png","images/preview/prev-bg-ice-desc.png"],"images/preview/prev-bg-ice-desc.png"],"./..\\images\\preview\\prev-bg-girl-desc.png":[["prev-bg-girl-desc.0ce2dda5.png","images/preview/prev-bg-girl-desc.png"],"images/preview/prev-bg-girl-desc.png"],"./..\\images\\preview\\prev-bg-sircle-desc.png":[["prev-bg-sircle-desc.e038e88e.png","images/preview/prev-bg-sircle-desc.png"],"images/preview/prev-bg-sircle-desc.png"],"./..\\images\\preview\\prev-bg-milk-desc.png":[["prev-bg-milk-desc.57f215a0.png","images/preview/prev-bg-milk-desc.png"],"images/preview/prev-bg-milk-desc.png"],"./..\\images\\products\\ice-creame1@1x.png":[["ice-creame1@1x.666bd6af.png","images/products/ice-creame1@1x.png"],"images/products/ice-creame1@1x.png"],"./..\\images\\products\\ice-creame1@2x.png":[["ice-creame1@2x.e50b1f0f.png","images/products/ice-creame1@2x.png"],"images/products/ice-creame1@2x.png"],"./..\\images\\products\\ice-coffee2@1x.png":[["ice-coffee2@1x.e12c470a.png","images/products/ice-coffee2@1x.png"],"images/products/ice-coffee2@1x.png"],"./..\\images\\products\\ice-coffee2@2x.png":[["ice-coffee2@2x.4accda1d.png","images/products/ice-coffee2@2x.png"],"images/products/ice-coffee2@2x.png"],"./..\\images\\products\\milkshakes3@1x.png":[["milkshakes3@1x.d41a4270.png","images/products/milkshakes3@1x.png"],"images/products/milkshakes3@1x.png"],"./..\\images\\products\\milkshakes3@2x.png":[["milkshakes3@2x.3d24b44e.png","images/products/milkshakes3@2x.png"],"images/products/milkshakes3@2x.png"],"./..\\images\\products\\points.png":[["points.04f2542b.png","images/products/points.png"],"images/products/points.png"],"./..\\images\\howmade-background.png":[["howmade-background.5c4f94df.png","images/howmade-background.png"],"images/howmade-background.png"],"./..\\images\\howmade-background-pc.png":[["howmade-background-pc.f35d3be9.png","images/howmade-background-pc.png"],"images/howmade-background-pc.png"],"./..\\images\\gallery\\gallery-mobile.png":[["gallery-mobile.8cc5ec35.png","images/gallery/gallery-mobile.png"],"images/gallery/gallery-mobile.png"],"./..\\images\\gallery\\gallery-mobile@2x.png":[["gallery-mobile@2x.68f5d191.png","images/gallery/gallery-mobile@2x.png"],"images/gallery/gallery-mobile@2x.png"],"./..\\images\\gallery\\gallery-tablet.png":[["gallery-tablet.b79a174c.png","images/gallery/gallery-tablet.png"],"images/gallery/gallery-tablet.png"],"./..\\images\\gallery\\gallery-tablet@2x.png":[["gallery-tablet@2x.a79779b7.png","images/gallery/gallery-tablet@2x.png"],"images/gallery/gallery-tablet@2x.png"],"./..\\images\\reviews\\quotes.png":[["quotes.ad2a46ab.png","images/reviews/quotes.png"],"images/reviews/quotes.png"],"./..\\images\\reviews\\points.svg":[["points.77c7fc6f.svg","images/reviews/points.svg"],"images/reviews/points.svg"],"./..\\images\\location\\locationbg.png":[["locationbg.cd147094.png","images/location/locationbg.png"],"images/location/locationbg.png"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"index.js":[function(require,module,exports) {
-"use strict";
-
-require("./sass/slick-theme.scss");
-
-require("./sass/slick.scss");
-
-require("./sass/main.scss");
-},{"./sass/slick-theme.scss":"sass/slick-theme.scss","./sass/slick.scss":"sass/slick.scss","./sass/main.scss":"sass/main.scss"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"./bundle-url":"../node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -235,7 +212,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "59694" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54170" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
@@ -411,5 +388,5 @@ function hmrAcceptRun(bundle, id) {
     return true;
   }
 }
-},{}]},{},["../node_modules/parcel-bundler/src/builtins/hmr-runtime.js","index.js"], null)
-//# sourceMappingURL=/src.e31bb0bc.js.map
+},{}]},{},["../node_modules/parcel-bundler/src/builtins/hmr-runtime.js"], null)
+//# sourceMappingURL=/index.js.map

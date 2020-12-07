@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.js"],"names":[],"mappings":";;;;;;;AAEA,aAFA,QAAA,2BACA,QAAA,qBACA,QAAA","file":"src.8e7c49a8.js","sourceRoot":"..\\src","sourcesContent":["import \"./sass/slick-theme.scss\";\r\nimport \"./sass/slick.scss\";\r\nimport \"./sass/main.scss\"\r\n"]}
