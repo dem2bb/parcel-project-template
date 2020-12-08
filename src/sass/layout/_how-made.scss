@@ -24,26 +24,56 @@
   }
 }
 
+
+
+.howmade-list-item::before {
+    content: "";
+    display: block;
+    width: 33px;
+    height: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.howmade-list-item-first {
+    background-repeat: no-repeat;
+    background-image: url(../images/howmadeicon1.png);
+}
+
+.howmade-list-item-second {
+    background-repeat: no-repeat;
+    background-image: url(../images/howmadeicon2.png);
+}
+
+.howmade-list-item-third {
+    background-repeat: no-repeat;
+    background-image: url(../images/howmadeicon3.png);
+}
+
+
 .howmade-title {
-  margin-top: 15px;
-  margin-bottom: 26px;
-  font-family: Titan One;
-  font-size: 34px;
-  line-height: 1.14;
-  text-align: center;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  color: $text-acent-color;
+    margin-top: 15px;
+    margin-bottom: 26px;
+    font-family: Titan One;
+    font-size: 34px;
+    line-height: 1.14;
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: $text-acent-color;
+    display: flex;
+    flex-direction: column; 
 }
 
 .howmade-undertitle {
-  font-family: Titan One;
-  font-size: 18px;
-  line-height: 1.166;
-  text-align: center;
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
-  color: $pink-text-color;
+    font-family: Titan One;
+    font-size: 18px;
+    line-height: 1.166;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: $pink-text-color;
+    margin-bottom: 15px;
 }
 
 .howmade-discrblock {
