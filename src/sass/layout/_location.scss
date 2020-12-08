@@ -56,13 +56,13 @@
         color: #FFFFFF;
         text-align: center;
         background-color: #F0D1A5;
-        width: 80px;
         border-radius: 4px;
+        display: inline-block;
+        padding: 0 10px;
 
         @media screen and (min-width: 768px) {
             font-size: 16px;
             line-height: 1.875;
-            width: 73px;
         }
 
     }
@@ -218,10 +218,11 @@
     }
 
     .location-list {
-        margin-right: 20px;
         margin-bottom: 0;
+        margin-right: 20px;
         padding-top: 50px;
         padding-bottom: 50px;
+        width: calc(100% / 3 - 20px);
 
         &:nth-child(3) {
             margin-right: 0;
@@ -248,15 +249,16 @@
         flex-direction: row;
         align-items: center;
         justify-content: center;
+        margin-left: -30px;
     }
 
     .location-list {
-        width: 330px;
+        width: calc(100% / 3 - 30px);
         padding-left: 43px;
         padding-right: 43px;
         padding-top: 51px;
         padding-bottom: 62px;
-        margin-right: 31px;
+        margin-right: 30px;
     }
 
     .location-buttons {
