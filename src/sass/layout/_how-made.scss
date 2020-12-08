@@ -36,6 +36,8 @@
     letter-spacing: 0.04em;
     text-transform: uppercase;
     color: $text-acent-color;
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -47,6 +49,7 @@
     text-transform: uppercase;
     letter-spacing: 0.04em;
     color: $pink-text-color;
+    margin-bottom: 15px;
 }
 
 .howmade-discrblock {

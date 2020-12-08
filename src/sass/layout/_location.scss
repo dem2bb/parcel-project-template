@@ -87,6 +87,7 @@
     font-size: 12px;
     line-height: 1.833;
     color: #000000;
+    font-weight: 500;
 
     @media screen and (min-width: 768px) {
         font-size: 14px;
@@ -173,33 +174,17 @@
 .location-firstblock::after {
     content: '';
     border: 1px solid #E1E1E1;
-    width: 179px;
+    width: 90%;
     margin-top: 25px;
     display: block;
-
-    @media screen and (min-width: 768px) {
-        width: 157px;
-    }
-
-    @media screen and (min-width: 1200px) {
-        width: 234px;
-    }
 }
 
 .location-secondblock::after {
     content: '';
     border: 1px solid #E1E1E1;
-    width: 179px;
+    width: 90%;
     margin-top: 25px;
     display: block;
-
-    @media screen and (min-width: 768px) {
-        width: 157px;
-    }
-
-    @media screen and (min-width: 1200px) {
-        width: 234px;
-    }
 }
 
 .location-formargin {
