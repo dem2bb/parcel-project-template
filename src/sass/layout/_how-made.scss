@@ -1,29 +1,30 @@
 .howmade {
-    position: relative;
-    padding-top: 125px;
+  position: relative;
+  padding-top: 125px;
 
-    @media screen and (min-width: 320px) and (max-width: 767px) {
-        background-color: $secondary-bg-color;
-        background-image: url(../images/howmade-background.png);
-        background-repeat: no-repeat;
-        background-size: contain;
-        background-position: bottom 780px left 0px;
-    }
+  @media screen and (min-width: 320px) and (max-width: 767px) {
+    background-color: $secondary-bg-color;
+    background-image: url(../images/howmade-background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom 780px left 0px;
+  }
 
-    @media screen and (min-width: 768px) {
-        // padding-bottom: 246px;
-    }
+  @media screen and (min-width: 768px) {
+    // padding-bottom: 246px;
+  }
 
-    @media screen and (min-width: 1200px) {
-        background-color: $secondary-bg-color;
-        background-image: url(../images/howmade-background-pc.png);
-        background-repeat: no-repeat;
-        background-size: contain;
-        background-position: top 342px left 0px;
-        // padding-bottom: 310px;
-    }
-
+  @media screen and (min-width: 1200px) {
+    background-color: $secondary-bg-color;
+    background-image: url(../images/howmade-background-pc.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top 342px left 0px;
+    // padding-bottom: 310px;
+  }
 }
+
+
 
 .howmade-list-item::before {
     content: "";
@@ -61,9 +62,8 @@
     text-transform: uppercase;
     color: $text-acent-color;
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
 }
-
 
 .howmade-undertitle {
     font-family: Titan One;
@@ -77,253 +77,241 @@
 }
 
 .howmade-discrblock {
-    margin-left: 30px;
+  margin-left: 30px;
 }
 
 .howmade-uppertext {
-    width: 220px;
-    margin-top: 46px;
-    margin-bottom: 23px;
-    font-family: DM Sans;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 1.583;
-    color: $primary-text-color;
+  width: 220px;
+  margin-top: 46px;
+  margin-bottom: 23px;
+  font-family: DM Sans;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.583;
+  color: $primary-text-color;
 }
 
 .howmade-discrtext {
-    width: 220px;
-    font-family: DM Sans;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 1.583;
-    color: $secondary-text-color;
-    letter-spacing: 0.04em;
+  width: 220px;
+  font-family: DM Sans;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.583;
+  color: $secondary-text-color;
+  letter-spacing: 0.04em;
 }
 
 .how-made-btn {
-    margin-top: 17px;
+  margin-top: 17px;
 }
 
 .howmade-paragraph {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 .howmade-button {
-    margin-top: 17px;
+  margin-top: 17px;
 }
 
 .howmade-list {
-    margin-top: 39px;
+  margin-top: 39px;
 
+  &-options {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-family: Titan One;
+    font-size: 36px;
+    line-height: 1.139;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: $text-acent-color;
+  }
 
-    &-options {
-        margin-top: 16px;
-        margin-bottom: 16px;
-        font-family: Titan One;
-        font-size: 36px;
-        line-height: 1.139;
-        letter-spacing: 0.04em;
-        text-transform: uppercase;
-        color: $text-acent-color;
-    }
+  &-about {
+    width: 230px;
+    font-family: DM Sans;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 1.666;
+    letter-spacing: 0.02em;
+    color: $primary-text-color;
+  }
 
-    &-about {
-        width: 230px;
-        font-family: DM Sans;
-        font-weight: bold;
-        font-size: 12px;
-        line-height: 1.666;
-        letter-spacing: 0.02em;
-        color: $primary-text-color;
-    }
+  &-item {
+    margin-bottom: 38px;
+  }
 
-    &-item {
-        margin-bottom: 38px;
-    }
-
-    &-item:last-child {
-        margin-bottom: 0;
-    }
+  &-item:last-child {
+    margin-bottom: 0;
+  }
 }
 
 @media screen and (min-width: 768px) {
-    .howmade {
-        background-color: $secondary-bg-color;
+  .howmade {
+    background-color: $secondary-bg-color;
 
-        &-title {
-            font-size: 48px;
-            line-height: 1.145;
-        }
-
-        &-undertitle {
-            font-size: 26px;
-            line-height: 1.153;
-        }
+    &-title {
+      font-size: 48px;
+      line-height: 1.145;
     }
 
-    .howmade-uppertext {
-        width: 340px;
-        font-size: 14px;
-        line-height: 1.785;
+    &-undertitle {
+      font-size: 26px;
+      line-height: 1.153;
+    }
+  }
+
+  .howmade-uppertext {
+    width: 340px;
+    font-size: 14px;
+    line-height: 1.785;
+  }
+
+  .howmade-discrtext {
+    width: 340px;
+    font-size: 14px;
+    line-height: 1.785;
+  }
+
+  .howmade-cowblock {
+    display: flex;
+  }
+
+  .how-made-btn {
+    margin-top: 62px;
+  }
+
+  .howmade-list {
+    display: flex;
+    margin-top: 66px;
+
+    &-item {
+      margin-bottom: 0;
+      margin-right: 60px;
     }
 
-    .howmade-discrtext {
-        width: 340px;
-        font-size: 14px;
-        line-height: 1.785;
+    &-item:last-child {
+      margin-right: 0;
     }
 
-    .howmade-cowblock {
-        display: flex;
+    &-options {
+      margin-top: 36px;
+      margin-bottom: 16px;
+      font-size: 48px;
+      line-height: 1.145;
     }
 
-    .how-made-btn {
-        margin-top: 62px;
+    &-about {
+      font-size: 14px;
+      line-height: 1.714;
+      width: 180px;
     }
-
-    .howmade-list {
-        display: flex;
-        margin-top: 66px;
-
-        &-item {
-            margin-bottom: 0;
-            margin-right: 60px;
-        }
-
-        &-item:last-child {
-            margin-right: 0;
-        }
-
-        &-options {
-            margin-top: 36px;
-            margin-bottom: 16px;
-            font-size: 48px;
-            line-height: 1.145;
-        }
-
-        &-about {
-            font-size: 14px;
-            line-height: 1.714;
-            width: 180px;
-        }
-    }
-
+  }
 }
 
 @media screen and (min-width: 1200px) {
-
-    .howmade {
-        &-undertitle {
-            font-size: 30px;
-            line-height: 1.133;
-        }
-
-        &-title {
-            font-size: 58px;
-            line-height: 1.137;
-        }
+  .howmade {
+    &-undertitle {
+      font-size: 30px;
+      line-height: 1.133;
     }
 
-    .howmade-uppertext,
-    .howmade-discrtext {
-        font-size: 14px;
-        line-height: 1.928;
+    &-title {
+      font-size: 58px;
+      line-height: 1.137;
+    }
+  }
+
+  .howmade-uppertext,
+  .howmade-discrtext {
+    font-size: 14px;
+    line-height: 1.928;
+  }
+
+  .howmade-list {
+    &-item {
+      margin-bottom: 0;
+      margin-right: 30px;
     }
 
-    .howmade-list {
-        &-item {
-            margin-bottom: 0;
-            margin-right: 30px;
-        }
-
-        &-item:last-child {
-            margin-right: 0;
-        }
-
-        &-options {
-            font-size: 58px;
-            line-height: 1.137;
-        }
-
-        &-about {
-            font-size: 16px;
-            line-height: 1.75;
-            width: 330px;
-        }
+    &-item:last-child {
+      margin-right: 0;
     }
 
+    &-options {
+      font-size: 58px;
+      line-height: 1.137;
+    }
 
+    &-about {
+      font-size: 16px;
+      line-height: 1.75;
+      width: 330px;
+    }
+  }
 }
 
 // =========================стили для галлереи==================
 .howmade {
-    padding-bottom: 145px;
+  padding-bottom: 145px;
 
-    @media screen and (min-width: 768px) {
-        padding-bottom: 246px;
+  @media screen and (min-width: 768px) {
+    padding-bottom: 246px;
+  }
 
-    }
-
-    @media screen and (min-width: 1200px) {
-        padding-bottom: 310px;
-
-    }
-
+  @media screen and (min-width: 1200px) {
+    padding-bottom: 310px;
+  }
 }
 
 .gallery-container {
-    position: absolute;
-    // bottom: 0px;
-    bottom: -73px;
-    left: 50%;
-    transform: translateX(-50%);
-    // transform: translate(-50%, 60%);
-    margin: 0 auto;
-    width: 320px;
-    height: 122px;
+  position: absolute;
+  // bottom: 0px;
+  bottom: -73px;
+  left: 50%;
+  transform: translateX(-50%);
+  // transform: translate(-50%, 60%);
+  margin: 0 auto;
+  width: 320px;
+  height: 122px;
+  background-image: url(../images/gallery/gallery-mobile.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  @media screen and (min-width: 320px) {
     background-image: url(../images/gallery/gallery-mobile.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 
-
-    @media screen and (min-width: 320px) {
-        background-image: url(../images/gallery/gallery-mobile.png);
-
-        @media screen and (min-device-pixel-ratio: 2) and (min-width: 320px),
-        screen and (min-resolution: 192dpi) and (min-width: 320px),
-        screen and (min-resolution: 2dppx) and (min-width: 320px) {
-            background-image: url(../images/gallery/gallery-mobile@2x.png);
-        }
+    @media screen and (min-device-pixel-ratio: 2) and (min-width: 320px),
+      screen and (min-resolution: 192dpi) and (min-width: 320px),
+      screen and (min-resolution: 2dppx) and (min-width: 320px) {
+      background-image: url(../images/gallery/gallery-mobile@2x.png);
     }
+  }
 
-    @media screen and (min-width: 768px) {
-        bottom: -159px;
-        width: 768px;
-        height: 264px;
-        background-image: url(../images/gallery/gallery-tablet.png);
+  @media screen and (min-width: 768px) {
+    bottom: -159px;
+    width: 768px;
+    height: 264px;
+    background-image: url(../images/gallery/gallery-tablet.png);
 
-        @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
-        screen and (min-resolution: 192dpi) and (min-width: 768px),
-        screen and (min-resolution: 2dppx) and (min-width: 768px) {
-            background-image: url(../images/gallery/gallery-tablet@2x.png);
-        }
+    @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
+      screen and (min-resolution: 192dpi) and (min-width: 768px),
+      screen and (min-resolution: 2dppx) and (min-width: 768px) {
+      background-image: url(../images/gallery/gallery-tablet@2x.png);
     }
+  }
 
+  @media screen and (min-width: 1200px) {
+    bottom: -259px;
+    width: 1050px;
+    height: 430px;
+    background-image: url(../images/gallery/gallery-tablet.png);
 
-    @media screen and (min-width: 1200px) {
-        bottom: -259px;
-        width: 1200px;
-        height: 430px;
-        background-image: url(../images/gallery/gallery-tablet.png);
-
-
-        @media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px),
-        screen and (min-resolution: 192dpi) and (min-width: 1200px),
-        screen and (min-resolution: 2dppx) and (min-width: 1200px) {
-            background-image: url(../images/gallery/gallery-tablet@2x.png);
-        }
+    @media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px),
+      screen and (min-resolution: 192dpi) and (min-width: 1200px),
+      screen and (min-resolution: 2dppx) and (min-width: 1200px) {
+      background-image: url(../images/gallery/gallery-tablet@2x.png);
     }
-
+  }
 }
