@@ -176,6 +176,14 @@
     width: 179px;
     margin-top: 25px;
     display: block;
+
+    @media screen and (min-width: 768px) {
+        width: 157px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        width: 234px;
+    }
 }
 
 .location-secondblock::after {
@@ -184,6 +192,14 @@
     width: 179px;
     margin-top: 25px;
     display: block;
+
+    @media screen and (min-width: 768px) {
+        width: 157px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        width: 234px;
+    }
 }
 
 .location-formargin {
