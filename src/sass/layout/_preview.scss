@@ -1,7 +1,13 @@
+// *,
+// *::before,
+// *::after {
+//   outline: 1px solid green;
+// }
 .preview-shop {
   display: none;
 
   @media screen and (min-width: 768px) {
+    height: 100%;
     display: block;
     margin-left: 475px;
   }
@@ -21,7 +27,7 @@
       margin-bottom: 0;
     }
 
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 1200px) {
       background-image: url(../images/preview/shop-item-bg-desc.png);
       width: 90px;
     }
@@ -67,28 +73,17 @@
 
   @media screen and (min-width: 768px) {
     display: block;
-    margin-top: 66px;
     margin-left: 120px;
+    margin-top: 66px;
   }
 
   @media screen and (min-width: 1200px) {
     width: 200px;
-    margin-left: 300px;
     font-size: 14px;
     line-height: 140%;
     margin-left: 180px;
     margin-top: 112px;
   }
-
-  // svg {
-  //   width: 18px;
-  //   height: 18px;
-  //   fill: #D41443;
-  //   background-color: #FFFFFF;
-  //   border-radius: 50%;
-  //   padding: 5px;
-  //   margin-top: 7px;
-  // }
   .btn-new-page {
     margin: 0;
     margin-top: 20px;
@@ -118,9 +113,9 @@
 
   .container {
     height: 502px;
-    width: 320px;
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    justify-content: center;
     background-color: #FFB8CA;
     background-image: url(../images/preview/ice.png), url(../images/preview/preview-circle.png);
     background-repeat: no-repeat;
@@ -128,7 +123,7 @@
 
     @media screen and (min-width: 768px) {
       align-items: start;
-      width: 768px;
+      justify-content: start;
       height: 400px;
       padding-top: 102px;
       background-image: url(../images/preview/prev-bg-ice.png), url(../images/preview/prev-bg-girl.png), url(../images/preview/prev-bg-sircle.png), url(../images/preview/prev-bg-milk.png);
@@ -137,26 +132,23 @@
     }
 
     @media screen and (min-width: 1200px) {
-      width: 1280px;
-      min-width: 1280px;
       height: 665px;
-      padding: 0;
+      padding: 0 40px;
       padding-top: 171px;
-      padding-left: 115px;
       background-image: url(../images/preview/prev-bg-ice-desc.png), url(../images/preview/prev-bg-girl-desc.png), url(../images/preview/prev-bg-sircle-desc.png), url(../images/preview/prev-bg-milk-desc.png);
-      background-position: left 594px bottom 0, right 109px bottom 0, left 475px top 52px, left 77px bottom 45px;
+      background-position: left 480px bottom 0, right 35px bottom 0, left 360px top 52px, left 30px bottom 45px;
     }
   }
 }
 
 .preview-title-wrapper {
   @media screen and (min-width: 768px) {
-    // width: 700px;
     display: flex;
   }
 
   h1 {
     width: 220px;
+    margin-bottom: 20px;
     font-family: Titan One;
     font-style: normal;
     font-weight: normal;
@@ -165,7 +157,6 @@
     letter-spacing: 0.04em;
     text-transform: uppercase;
     color: #FFFFFF;
-    margin-bottom: 20px;
 
     @media screen and (min-width: 768px) {
       width: 162px;
