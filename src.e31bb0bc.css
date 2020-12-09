@@ -147,6 +147,7 @@
   background-repeat: no-repeat;
   background-size: 12px 12px;
   background-position: center;
+  opacity: 1;
 }
 /* Slider */
 .slick-slider {
@@ -276,6 +277,9 @@ img {
 body {
   font-family: DM Sans, sans-serif;
   position: relative;
+  color: #000000;
+  font-size: 16px;
+  line-height: 1.75;
 }
 
 .container {
@@ -934,26 +938,24 @@ button {
   letter-spacing: 0.04em;
   text-transform: uppercase;
   color: #ffa5ba;
+  margin-bottom: 31px;
 }
 @media screen and (max-width: 767px) {
   .products-title {
     font-size: 18px;
     line-height: 1.16;
-    margin-bottom: 144px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .products-title {
     font-size: 26px;
     line-height: 1.16;
-    margin-bottom: 150px;
   }
 }
 @media screen and (min-width: 1200px) {
   .products-title {
     font-size: 30px;
     line-height: 1.13;
-    margin-bottom: 259px;
   }
 }
 
@@ -981,6 +983,22 @@ button {
 @media screen and (min-width: 1200px) {
   .products-name-title {
     font-size: 58px;
+  }
+}
+
+.products-item-container {
+  padding-top: 130px;
+  width: 100%;
+  height: 100%;
+}
+@media screen and (min-width: 768px) {
+  .products-item-container {
+    padding-top: 110px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .products-item-container {
+    padding-top: 210px;
   }
 }
 
@@ -1726,6 +1744,10 @@ button {
   top: -84px;
 }
 
+.location-cont-title {
+  visibility: hidden;
+}
+
 .how-made-btn,
 .location-btn2,
 .location-btn {
@@ -1745,9 +1767,6 @@ button {
 }
 
 .location-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   margin-bottom: 54px;
 }
 
@@ -1759,8 +1778,9 @@ button {
   padding-bottom: 43px;
   padding-left: 20px;
   padding-right: 21px;
-  margin-bottom: 20px;
   width: 220px;
+  margin: 0 auto;
+  margin-bottom: 20px;
 }
 .location-list:nth-child(3) {
   margin-bottom: 0;
