@@ -3,11 +3,11 @@
 }
 
 .footer .container {
-    padding-bottom: 43px;
-    padding-top: 29px;
-
     display: flex;
     flex-direction: column;
+
+    padding-bottom: 43px;
+    padding-top: 29px;
 
     @media screen and (min-width: 768px) {
         flex-direction: row;
@@ -42,40 +42,28 @@
     }
 }
 
-.footer-undertitle {
-    font-family: $main-font;
-    font-size: 18px;
-    line-height: 1.167;
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
-    color: $pink-text-color;
-    display: flex;
-    flex-direction: column;
+.footer .section-title-label {
+    margin-bottom: 0px;
+    line-height: 1.167; 
 
     @media screen and (min-width:768px) {
-        font-size: 26px;
         line-height: 1.154;
     }
 
     @media screen and (min-width: 1200px) {
-        font-size: 30px;
         line-height: 1.133;
     }
 
 }
 
-.footer-title {
-    font-family: $main-font;
-    font-weight: 400;
+.footer-title-accent {
+    display: block;
     font-size: 34px;
     line-height: 1.147;
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
     color: $text-acent-color;
     margin-top: 15px;
 
     @media screen and (min-width: 768px) {
-        font-family: $main-font;
         font-size: 48px;
         line-height: 1.146;
         letter-spacing: 0.06em;
@@ -132,16 +120,9 @@
 }
 
 .socials-svg {
-    &.github {
-        width: 19px;
-        height: 19px;
-    }
-
-    &.telegram {
-        width: 19px;
-        height: 19px;
-    }
-
+    width: 19px;
+    height: 19px;
+    
     &.facebook {
         width: 9px;
         height: 19px;
@@ -152,26 +133,14 @@
 // ===============телефон===============
 
 .phone-text {
-    font-family: $secondary-font;
     font-weight: 700;
-    font-size: 12px;
     line-height: 1.86;
     letter-spacing: 0.02em;
-    color: $primary-text-color;
-
-    @media screen and (min-width: 768px) {
-        font-size: 14px;
-    }
-
-    @media screen and (min-width: 1200px) {
-        font-size: 16px;
-    }
-
 
     &-link {
+        display: inline-block;
         color: $text-acent-color;
         font-weight: 500;
-        display: inline-block;
 
     }
 
@@ -193,15 +162,13 @@
 
 .copyright {
     text-align: center;
-
-    font-family: $secondary-font;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.86;
     letter-spacing: 0.02em;
     color: $secondary-text-color;
 
-    @media screen and (min-width: 320px) and (max-width: 767px) {
+    @media screen and (max-width: 767px) {
         max-width: 150px;
         margin: 0 auto;
         line-height: 1.52;
