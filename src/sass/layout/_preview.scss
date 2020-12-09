@@ -1,8 +1,4 @@
-// *,
-// *::before,
-// *::after {
-//   outline: 1px solid green;
-// }
+
 .preview-shop {
   display: none;
 
@@ -158,13 +154,22 @@
 
 .preview-button {
   display: flex;
-
+  .button {
+    @media screen and (max-width: 1999px) {
+      font-size: 8px;
+      line-height: 10px;
+      font-weight: 400;
+      padding: 11px 14px;
+      height: 24px;
+    }
+    @media screen and (min-width: 1200px) {
+      font-size: 14px;
+      line-height: 18px;
+      padding: 11px 22px;
+      height: 40px;
+    }
+  }
   button:first-child {
     margin-right: 8px;
-    cursor: pointer;
   }
-}
-
-.preview-btn2 {
-  cursor: pointer;
 }
