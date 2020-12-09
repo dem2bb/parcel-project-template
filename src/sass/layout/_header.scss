@@ -27,15 +27,15 @@ header {
   background: transparent;
   outline: none;
   border: none;
+  margin-left: auto;
+  cursor: pointer;
   .header-menu-icon {
     width: 25px;
     height: 25px;
-    margin-left: auto;
     @media screen and (min-width: 1200px) {
       display: none;
     }
   }
-  margin-left: auto;
   @media screen and (min-width: 768px) {
     margin-right: 30px;
   }
@@ -53,18 +53,6 @@ header {
   padding: 23px 0px;
   transform: translateY(-100%);
   transition: all 250ms linear;
-  .header-btn-menu {
-    margin: 0 auto;
-    margin-top: 23px;
-  }
-  button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    @media screen and (min-width: 1200px) {
-      display: none;
-    }
-  }
   &.is-open {
     transform: translateY(0);
   }
@@ -85,14 +73,11 @@ header {
 }
 .header-nav-item {
   font-family: DM Sans;
-  font-style: normal;
-  font-weight: bold;
   font-size: 14px;
   line-height: 18px;
+  font-weight: 700;
   display: flex;
-  align-items: center;
   color: #ffffff;
-  display: flex;
   flex-direction: column;
   align-items: start;
   margin-top: 32px;
@@ -140,41 +125,42 @@ header {
   }
 }
 
-button {
-  background: transparent;
-  outline: none;
-  border: none;
-}
-.header-close-button {
-  width: 14px;
-  height: 14px;
-  margin-left: auto;
-  margin-right: 28px;
-  use {
-    &:hover,
-    &:focus {
-      fill: #d41443;
-    }
-    @media screen and (min-width: 768px) {
-      margin-right: 34px;
-    }
-  }
-  @media screen and (min-width: 1200px) {
-    display: none;
-  }
-}
-.header-close-button-wrapper {
-  margin-left: auto;
-  cursor: pointer;
-}
-.tab-desc-btn {
+.tablet-desc-btn {
   display: none;
+  font-size: 16px;
+  line-height: 21px;
   @media screen and (min-width: 768px) {
     display: block;
     width: 160px;
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
+  }
+}
+.nav-button-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 0 40px;
+  .button {
+    width: 200px;
+    margin: 0 auto;
+    @media screen and (min-width: 768px) {
+      width: 180px;
+    }
+    @media screen and (min-width: 1200px) {
+      display: none;
+    }
+  }
+}
+.nav-close-button {
+  cursor: pointer;
+  background: transparent;
+  outline: none;
+  border: none;
+  margin-bottom: 24px;
+  margin-left: auto;
+  .nav-close-icon {
+    width: 14px;
+    height: 14px;
+  }
+  @media screen and (min-width: 1200px) {
+    display: none;
   }
 }

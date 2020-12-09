@@ -61,21 +61,20 @@ body {
     width: 280px;
     font-size: 38px;
     line-height: 44px;
+  }
+  &-label {
+    color: #d41443;
+    font-size: 48px;
+    line-height: 0.955;
 
-    &-label {
-      color: #d41443;
-      font-size: 48px;
-      line-height: 0.955;
+    @media screen and (min-width: 768px) {
+      font-size: 34px;
+      line-height: 31px;
+    }
 
-      @media screen and (min-width: 768px) {
-        font-size: 34px;
-        line-height: 31px;
-      }
-
-      @media screen and (min-width: 1200px) {
-        font-size: 58px;
-        line-height: 53px;
-      }
+    @media screen and (min-width: 1200px) {
+      font-size: 58px;
+      line-height: 53px;
     }
   }
 }
