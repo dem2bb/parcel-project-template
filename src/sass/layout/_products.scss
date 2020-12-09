@@ -13,53 +13,6 @@
   }
 }
 
-.products-title {
-  font-family: Titan One;
-  font-weight: 400;
-  text-align: center;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  color: $pink-text-color;
-  margin-bottom: 31px;
-
-  @media screen and (max-width: 767px) {
-    font-size: 18px;
-    line-height: 1.16;
-  }
-
-  @media screen and (min-width: 768px) and (max-width: 1199px) {
-    font-size: 26px;
-    line-height: 1.16;
-  }
-
-  @media screen and (min-width: 1200px) {
-    font-size: 30px;
-    line-height: 1.13;
-  }
-}
-
-.products-name-title {
-  font-family: Titan One;
-  font-weight: 400;
-  line-height: 1.14;
-  text-align: center;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  color: $text-acent-color;
-  display: block;
-  margin-top: 15px;
-
-  @media screen and (max-width: 767px) {
-    font-size: 34px;
-  }
-  @media screen and (min-width: 768px) and (max-width: 1199px) {
-    font-size: 48px;
-  }
-  @media screen and (min-width: 1200px) {
-    font-size: 58px;
-  }
-}
-
 .products-item-container {
   padding-top: 130px;
   width: 100%;
@@ -73,6 +26,12 @@
 }
 
 .products-item {
+  font-weight: bold;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+
   @media screen and (min-width: 768px) {
     display: flex;
     justify-content: space-between;
@@ -119,37 +78,33 @@
   &-milkshakes {
     background: $green-bg-color;
   }
+
+  &:before {
+    content: '';
+    position: absolute;
+    right: 0;
+    display: block;
+    width: 100%;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
 }
 
 .products-container-cream::before {
-  content: '';
-  display: block;
-  width: 249px;
   height: 252px;
-  margin: auto;
-  position: absolute;
   top: -24%;
-  right: 3%;
-
   background-image: url(../images/products/ice-creame1@1x.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
 
   @media screen and (min-width: 768px) {
-    width: 220px;
     height: 233px;
-    top: -24%;
-    right: 0;
     transform: translateX(2%);
   }
 
   @media screen and (min-width: 1200px) {
-    width: 335px;
     height: 335px;
     top: -40%;
-    right: 0;
-    transform: translateX(2%);
   }
 }
 
@@ -162,36 +117,20 @@
 }
 
 .products-container-coffee::before {
-  content: '';
-  display: block;
-  width: 249px;
   height: 252px;
-  margin: auto;
-  position: absolute;
+
   top: -24%;
-  right: 5%;
 
   background-image: url(../images/products/ice-coffee2@1x.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 249px 252px;
 
   @media screen and (min-width: 768px) {
-    width: 220px;
     height: 233px;
-    background-size: 220px 233px;
-    top: -24%;
-    right: 0;
     transform: translateX(2%);
   }
 
   @media screen and (min-width: 1200px) {
-    width: 335px;
     height: 335px;
-    background-size: 335px 335px;
     top: -40%;
-    right: 0;
-    transform: translateX(2%);
   }
 }
 
@@ -204,36 +143,19 @@
 }
 
 .products-container-milkshakes::before {
-  content: '';
-  display: block;
-  width: 249px;
   height: 252px;
-  margin: auto;
-  position: absolute;
   top: -24%;
-  right: 5%;
-
+  right: -2%;
   background-image: url(../images/products/milkshakes3@1x.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 249px 252px;
 
   @media screen and (min-width: 768px) {
-    width: 220px;
     height: 233px;
-    background-size: 220px 233px;
-    top: -24%;
-    right: 0;
     transform: translateX(2%);
   }
 
   @media screen and (min-width: 1200px) {
-    width: 335px;
     height: 335px;
-    background-size: 335px 335px;
     top: -40%;
-    right: 0;
-    transform: translateX(2%);
   }
 }
 
@@ -281,31 +203,6 @@
   }
 }
 
-.products-description {
-  font-family: DM Sans;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 1.5;
-  text-align: center;
-  letter-spacing: 0.04em;
-  color: #ffffff;
-  margin: auto;
-
-  @media screen and (max-width: 767px) {
-    margin-bottom: 30px;
-  }
-
-  @media screen and (min-width: 768px) and (max-width: 1199px) {
-    margin-bottom: 40px;
-  }
-
-  @media screen and (min-width: 1200px) {
-    font-size: 16px;
-    line-height: 1.75;
-    margin-bottom: 62px;
-  }
-}
-
 .btn-new-page {
   width: 40px;
   height: 40px;
@@ -317,6 +214,15 @@
   justify-content: center;
   align-items: center;
   transition: background-color 250ms linear, transform 250ms linear;
+  margin-top: 30px;
+
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    margin-top: 40px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    margin-top: 62px;
+  }
 }
 
 .btn-new-page:hover,
