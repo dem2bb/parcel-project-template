@@ -809,7 +809,7 @@ header .container {
     padding-bottom: 98px;
   }
 }
-@media screen and (min-width: 768px) and (max-width: 1199px) {
+@media screen and (min-width: 768px) {
   .products {
     padding-top: 122px;
     padding-bottom: 112px;
@@ -876,7 +876,7 @@ header .container {
     margin-bottom: 130px;
   }
 }
-@media screen and (min-width: 768px) and (max-width: 1199px) {
+@media screen and (min-width: 768px) {
   .products-container {
     padding: 152px 11px 40px;
   }
@@ -1032,7 +1032,7 @@ header .container {
   transition: background-color 250ms linear, transform 250ms linear;
   margin-top: 30px;
 }
-@media screen and (min-width: 768px) and (max-width: 1199px) {
+@media screen and (min-width: 768px) {
   .btn-new-page {
     margin-top: 40px;
   }
