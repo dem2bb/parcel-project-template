@@ -25,11 +25,11 @@ body {
   line-height: 1.75;
   font-weight: 500;
 
-  @media screen and (min-width: 768) {
+  @media screen and (min-width: 768px) {
     font-size: 14px;
   }
 
-  @media screen and (min-width: 1280) {
+  @media screen and (min-width: 1200px) {
     font-size: 16px;
   }
 }
@@ -61,21 +61,21 @@ body {
     width: 280px;
     font-size: 38px;
     line-height: 44px;
+  }
 
-    &-label {
-      color: #d41443;
-      font-size: 48px;
-      line-height: 0.955;
+  &-label {
+    color: #d41443;
+    font-size: 48px;
+    line-height: 0.955;
 
-      @media screen and (min-width: 768px) {
-        font-size: 34px;
-        line-height: 31px;
-      }
+    @media screen and (min-width: 768px) {
+      font-size: 34px;
+      line-height: 31px;
+    }
 
-      @media screen and (min-width: 1200px) {
-        font-size: 58px;
-        line-height: 53px;
-      }
+    @media screen and (min-width: 1200px) {
+      font-size: 58px;
+      line-height: 53px;
     }
   }
 }
@@ -99,7 +99,7 @@ body {
 .section-title-label {
   display: block;
   color: $pink-text-color;
-  margin-bottom: 31px;
+  margin-bottom: 15px;
 
   font-size: 18px;
   line-height: 1.16;
